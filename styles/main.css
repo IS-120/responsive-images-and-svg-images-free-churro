@@ -11,7 +11,13 @@ svg {
   width: 200px;
 }
 
-.about img {
+img[srcset] {
   width: 50%;
+  height: auto;
   margin: 2rem auto;
+}
+
+/* temporary fix to size svg images */
+img[src$="svg"] {
+  width: 200px;
 }
