@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+svg {
+  width: 200px;
+}
+
+.about img {
+  width: 50%;
+  margin: 2rem auto;
+}
